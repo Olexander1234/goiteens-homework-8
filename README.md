@@ -31,4 +31,27 @@
                                 </svg>
                                 <svg widht="20" height="20">
                                     <use href="./img/icons/Icons.svg#icon-linkedin-1"></use>
-                                        </svg>
+                                        </svg>\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        <svg class="contact" widht="10" height="16">
+            <use href="./img/icons/Icons.svg#icon-Phone-book"></use>
+
+           </svg> 
