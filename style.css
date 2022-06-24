@@ -453,14 +453,22 @@ line-height: 30px
     display: flex;
 }
 .hero-section{
-    background-color: #2F303A;
+    
+    background-color: #2f303a;
     text-align: center;
     padding-bottom: 200px;
     padding-top: 200px;
-    background-image: linear-gradient( to right 
-rgba(47, 48, 58, 0.4),
-rgba(47, 48, 58, 0.4)
-     ); url( "./" ); 
+
+    
+    background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+     url("./img/goooo.jpg");
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
 }
 .ovoch div + div{
     display: flex;
@@ -659,7 +667,8 @@ border-radius: 4px;
 }
 .contact{
     margin-right: 10px;
-    fill: #757575;;
+    fill: #757575;
+    margin-left: -20px;
     
 
 }
@@ -670,8 +679,33 @@ border-radius: 4px;
 .contact:hover{
     color: #2196F3;
 }
+.kvadrat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ist{ 
+display: flex;
+}
+a{
+    text-decoration: none;
+}
+.opq{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: -50px;
+   margin-bottom: -40px;
+}
+.opq li + li{
+    margin-left: 27.16px;
+    
+}
+.contact:hover{
+    color: #2196F3;
 
-
+}
 
 
 чтт
