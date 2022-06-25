@@ -683,7 +683,7 @@ border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    fill: currentColor;
 }
 .ist{ 
 display: flex;
